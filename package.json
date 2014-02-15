@@ -1,0 +1,45 @@
+{
+  "name": "horde3d",
+  "version": "0.0.1",
+  "description": "node.js bindings to Horde3D graphics engine",
+  "author": { 
+    "name": "Pras Velagapudi <psigen@gmail.com>",
+    "email": "psigen@gmail.com"
+  },
+  "contributors": [ 
+    {
+      "name": "Pyry Matikainen",
+      "email": "pkmatikainen@gmail.com"
+    } 
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psigen/node-horde3d.git"
+  },
+  "bugs": "http://github.com/psigen/node-horde3d/issues",
+  "keywords": [
+    "game",
+    "bullet",
+    "physics",
+    "wrapper"
+  ],
+  "license": "BSD",
+  "directories": {
+    "lib": "./lib",
+    "src": "./src"
+  },
+  "main": "./lib/horde3d.js",
+  "dependencies" : {
+    "ffi": "*",
+    "ref": "*",
+    "ref-array": "*",
+    "ref-struct": "*"
+  },
+  "devDependencies": {
+    "ffi-generate": "*",
+    "js-beautify": "*"
+  },
+  "engines": {
+    "node": ">=1.0"
+  }
+}
