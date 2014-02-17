@@ -13,7 +13,7 @@ Currently, this library is not published to `npm`.  However, you can use it in n
 
 ```javascript
 "dependencies": { 
-  "bulletphysics": "git://github.com/psigen/node-horde3d.git"
+  "horde3d": "git://github.com/psigen/node-horde3d.git"
 }
 ```
 
